@@ -1,0 +1,80 @@
+.picker-item {
+    position: absolute;
+    -unity-text-align: middle-center;
+    right: 0;
+    font-size: 25px;
+    left: 0;
+    white-space: normal;
+    transition-property: scale, top;
+    transition-duration: 0.2s, 0.2s;
+    transition-timing-function: ease-out, ease-out;
+}
+
+.picker-item--selected {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    opacity: 1;
+    scale: 1 1;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.carousel-point {
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.carousel-point--selected {
+    background-color: rgb(0, 0, 0);
+
+}
+
+.carousel-container{
+    width: 7%;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-container{
+    width: 93%;
+}
+
+.choice-button {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    background-image: url("project://database/Assets/Assetstore/GUI Kit - Neon/ResourceData/Sprite/Component/Button_ButtonIcon/Face_White/btn_face_white_Play.png");
+}
+
+.choice-button--rotate-left {
+    rotate: -90deg;
+}
+
+.choice-button--rotate-right {
+    rotate: 90deg;
+}

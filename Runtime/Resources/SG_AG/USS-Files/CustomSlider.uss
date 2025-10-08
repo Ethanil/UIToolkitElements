@@ -1,0 +1,53 @@
+.custom-slider {
+    flex-grow: 1;
+    background-image: url("project://database/Assets/Assetstore/GUI%20Kit%20-%20Neon/ResourceData/Sprite/Component/Button/Btn_Oval00_s_Purple.png?fileID=21300000&guid=ee3e8e7e9744f4e64a328d93217e58a3&type=3#Btn_Oval00_s_Purple");
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+}
+
+.custom-slider #unity-tracker {
+    background-color: rgb(79, 22, 241);
+    position: relative;
+    top: auto;
+    height: auto;
+    flex-grow: 1;
+    margin-top: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.custom-slider #filled-tracker {
+    background-color: rgb(189, 22, 241);
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.custom-slider #unity-dragger {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    background-color: rgb(22, 75, 241);
+    height: 100%;
+    top: 0;
+    margin-top: 0;
+    width: 30px;
+    scale: 1.5 1.5;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+}
+
+.custom-slider #unity-drag-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}

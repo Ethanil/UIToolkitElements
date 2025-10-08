@@ -1,0 +1,20 @@
+.gauge__drawing-container {
+    height: 100%;
+    width: 100%;
+    min-width: 200px;
+    min-height: 100px;
+}
+
+.gauge {
+    flex-direction: column-reverse;
+}
+
+.gauge .unity-slider__label {
+    align-self: center;
+    -unity-text-align: upper-center;
+}
+
+.gauge__percentage-label {
+    -unity-text-align: upper-center;
+    min-width: 150px;
+}

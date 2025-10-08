@@ -1,0 +1,38 @@
+.radarchart__value-label {
+    position: absolute;
+    font-size: 48px;
+    background-color: rgba(0, 0, 0, 0.22);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    padding-top: 9px;
+    padding-right: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+}
+
+.radarchart__value-label-container {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    height: 0;
+    background-color: rgb(255, 0, 0);
+}
+
+.radarchart__background {
+    border-top-width: 13px;
+    border-right-width: 13px;
+    border-bottom-width: 13px;
+    border-left-width: 13px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.81);
+}
