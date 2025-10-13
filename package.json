@@ -1,6 +1,6 @@
 {
   "name": "de.tu-darmstadt.serious-games.uitoolkitelements",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "UI Toolkit Elements",
   "description": "These are various Custom Elements: a Centered Scroll View, a Custom Slider, a Gauge and a Radarchart",
   "unity": "2022.3",

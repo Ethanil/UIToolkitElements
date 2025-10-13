@@ -73,7 +73,7 @@ namespace TUDarmstadt.SeriousGames.UIElements
         }
         private void Initialize()
         {
-            var styleSheet = Resources.Load<StyleSheet>("SG_AG/USS-Files/Radarchart");
+            var styleSheet = Resources.Load<StyleSheet>("de.tu-darmstadt.serious-games.uitoolkitelements/USS-Files/Radarchart");
             if (styleSheet != null)
                 styleSheets.Add(styleSheet);
             this.AddToClassList(backgroundUssClassName);

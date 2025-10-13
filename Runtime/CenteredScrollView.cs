@@ -24,7 +24,7 @@ namespace TUDarmstadt.SeriousGames.UIElements
 
         public CenteredScrollView()
         {
-            var styleSheet = Resources.Load<StyleSheet>("SG_AG/USS-Files/CenteredScrollViewStyles");
+            var styleSheet = Resources.Load<StyleSheet>("de.tu-darmstadt.serious-games.uitoolkitelements/USS-Files/CenteredScrollViewStyles");
             styleSheets.Add(styleSheet);
             style.flexDirection = FlexDirection.Row;
 

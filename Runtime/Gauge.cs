@@ -25,7 +25,7 @@ namespace TUDarmstadt.SeriousGames.UIElements
         private void Initialize()
         {
             value = 0.3f;
-            var styleSheet = Resources.Load<StyleSheet>("SG_AG/USS-Files/Gauge");
+            var styleSheet = Resources.Load<StyleSheet>("de.tu-darmstadt.serious-games.uitoolkitelements/USS-Files/Gauge");
             if (styleSheet != null)
                 styleSheets.Add(styleSheet);
 

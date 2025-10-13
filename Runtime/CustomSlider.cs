@@ -20,7 +20,7 @@ namespace TUDarmstadt.SeriousGames.UIElements
         {
             InitializeFilledBar();
             AddToClassList("custom-slider");
-            var styleSheet = Resources.Load<StyleSheet>("SG_AG/USS-Files/CustomSlider");
+            var styleSheet = Resources.Load<StyleSheet>("de.tu-darmstadt.serious-games.uitoolkitelements/USS-Files/CustomSlider");
             if (styleSheet != null)
                 styleSheets.Add(styleSheet);
             this.RegisterValueChangedCallback(OnValueChanged);
